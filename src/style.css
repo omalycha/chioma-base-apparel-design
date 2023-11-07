@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'josefin sans', sans-serif;
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.content-div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 15%;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content__section {
+    margin-top: 130px;
+}
+.content__section h1 {
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+    font-size: 65px;
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.content__section .pink--heading {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    margin-bottom: 8px;  
+}
+
+.content__section p {
+    color: hsl(0, 36%, 70%);
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    opacity: 0.8;
+    font-weight: 400;
+  }
+
+.image-div {
+    width: 40%;
+    background-image: url(../images/hero-desktop.jpg);
+    background-size: cover;
+}
+.input-div {
+    height: 50px;
+    width: 100%;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-div input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 0 30px;
+    color: hsl(0, 6%, 24%);
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 0.5;
+}
+
+button.submit {
+    height: 100%;
+    flex-shrink: 0;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%));
+    border: none;
+    outline: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button.submit:hover {
+    opacity: 0.5;
+    box-shadow: 6px 18px 25px -2px rgba(238, 140, 140, 0.9); 
+  }
+  
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+  
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
